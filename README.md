@@ -34,5 +34,9 @@ DEFAULT_USER=`whoami`
 
 # Atom
 ```
-apm install nord-atom-ui nord-atom-syntax language-babel language-elixir language-jsx autocomplete-paths linter linter-eslint linter-flake8 merge-conflicts atom-beautify pigments docblockr
+apm install nord-atom-ui nord-atom-syntax 
+apm install language-babel language-elixir language-jsx 
+apm install editorconfig autocomplete-paths merge-conflicts 
+apm install linter linter-eslint linter-flake8
+apm install atom-beautify pigments docblockr
 ```
