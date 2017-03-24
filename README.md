@@ -7,11 +7,10 @@ Change shell to zsh
 chsh -s zsh
 ```
 
-Install oh-my-zsh (remove any ~/.oh-my-zsh created by `mackup restore`)
+Remove any ~/.oh-my-zsh created by `mackup restore`, then install oh-my-zsh
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-Note: remove any ~/.oh-my-zsh created by `mackup restore`
 
 Install powerline patched fonts
 ```
