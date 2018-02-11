@@ -1,13 +1,20 @@
+# Start
+
+1. Create a suitable name for the new kit in network sharing settings
+2. Enable file vault encryption
+3. Generate new a ssh key pair `ssh-keygen -t rsa`
+
+
 # Terminal
 
 Install iTerm: https://www.iterm2.com
 
-Change shell to zsh 
+Change default shell to zsh 
 ```
 chsh -s zsh
 ```
 
-Remove any ~/.oh-my-zsh created by `mackup restore`, then install oh-my-zsh
+Remove any ~/.oh-my-zsh, then install oh-my-zsh
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
@@ -18,10 +25,9 @@ git clone git@github.com:powerline/fonts.git
 cd fonts
 ./install.sh
 ```
+Download Nord theme colours from https://github.com/arcticicestudio/nord-iterm2 and import in iterm preferences
 
-Download iTerm colour schemes from http://iterm2colorschemes.com
-In iTerm, CMD+i -> Colors -> [select :: import]
-(Spacegrey Eighties Dull)
+Set font to `12pt Roboto Mono Light for powerline`
 
 
 Edit `~/.zshrc` :
@@ -31,11 +37,5 @@ DEFAULT_USER=`whoami`
 ```
 
 
-# Atom
-```
-apm install nord-atom-ui nord-atom-syntax 
-apm install language-babel language-elixir language-jsx 
-apm install editorconfig autocomplete-paths merge-conflicts 
-apm install linter linter-eslint linter-flake8
-apm install atom-beautify pigments docblockr
-```
+# VSCode
+
