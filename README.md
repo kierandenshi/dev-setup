@@ -4,6 +4,12 @@
 2. Enable file vault encryption
 3. Generate new a ssh key pair `ssh-keygen -t rsa`
 
+# Git
+
+Change default editor to nano 
+```
+git config --global core.editor "nano"
+```
 
 # Terminal
 
@@ -11,7 +17,7 @@ Install iTerm: https://www.iterm2.com
 
 Change default shell to zsh 
 ```
-chsh -s zsh
+chsh -s /bin/zsh
 ```
 
 Remove any ~/.oh-my-zsh, then install oh-my-zsh
