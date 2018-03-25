@@ -43,5 +43,44 @@ DEFAULT_USER=`whoami`
 ```
 
 
-# VSCode
+# VSCode settings
+```
+{
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Nord",
+    "editor.fontSize": 12,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
 
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.yarn-cache": true,
+        "**/.eggs": true,
+        "**/.cache-loader": true
+    },
+    "files.insertFinalNewline": true,
+    "search.exclude": {
+        "**/node_modules/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.yarn-cache": true,
+        "**/.eggs": true,
+        "**/.cache-loader": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "eslint.autoFixOnSave": true,
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "terminal.integrated.fontFamily" : "Roboto Mono Light for Powerline"
+}
+```
