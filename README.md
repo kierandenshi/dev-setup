@@ -45,6 +45,8 @@ DEFAULT_USER=`whoami`
 
 # VSCode 
 
+Install VSCode: https://code.visualstudio.com/Download
+
 Install Nord theme and Eslint
 ```
 ext install nord-visual-studio-code
