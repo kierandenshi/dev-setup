@@ -43,7 +43,15 @@ DEFAULT_USER=`whoami`
 ```
 
 
-# VSCode settings
+# VSCode 
+
+Install Nord theme and Eslint
+```
+ext install nord-visual-studio-code
+ext install vscode-eslint
+```
+
+Update user preferences
 ```
 {
     "editor.formatOnPaste": true,
@@ -51,7 +59,6 @@ DEFAULT_USER=`whoami`
     "editor.fontSize": 12,
     "editor.minimap.enabled": false,
     "workbench.startupEditor": "newUntitledFile",
-
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
