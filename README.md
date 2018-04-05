@@ -77,6 +77,7 @@ DEFAULT_USER=`whoami`
         "**/.cache-loader": true
     },
     "explorer.confirmDragAndDrop": false,
+    "eslint.enable": true,
     "eslint.autoFixOnSave": true,
     "[scss]": {
         "editor.tabSize": 2
