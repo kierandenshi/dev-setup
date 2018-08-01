@@ -42,6 +42,23 @@ ZSH_THEME="agnoster"
 DEFAULT_USER=`whoami`
 ```
 
+# Homebrew
+
+Install Homebrew
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Install Nave
+```
+brew install nave
+```
+
+Install NodeJS
+```
+nave install lts
+```
+
 
 # VSCode 
 
