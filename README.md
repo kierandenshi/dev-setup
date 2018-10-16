@@ -59,6 +59,10 @@ Install NodeJS
 nave install lts
 ```
 
+Install Yarn
+```
+nave install yarn
+```
 
 # VSCode 
 
