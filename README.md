@@ -61,8 +61,10 @@ nave install lts
 
 Install Yarn
 ```
-nave install yarn
+brew install yarn
 ```
+
+# Rails
 
 Install Rbenv
 ```
@@ -76,6 +78,20 @@ Install Ruby
 rbenv install 2.6.5
 ```
 
+Install postgresql
+```
+brew install postgresql@11
+```
+
+Start postgresql as a system service
+```
+brew services start postgresql@11
+```
+
+Build pg gem
+```
+gem install pg -- --with-pg-config=/usr/local/Cellar/postgresql@11/11.8/bin/pg_config
+```
 
 # VSCode 
 
