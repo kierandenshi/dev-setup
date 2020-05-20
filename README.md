@@ -64,6 +64,19 @@ Install Yarn
 nave install yarn
 ```
 
+Install Rbenv
+```
+brew install rbenv
+```
+
+Add `eval "$(rbenv init -)"` to the end of `~/.zshrc`
+
+Install Ruby
+```
+rbenv install 2.6.5
+```
+
+
 # VSCode 
 
 Install VSCode: https://code.visualstudio.com/Download
