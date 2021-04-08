@@ -75,7 +75,7 @@ Add `eval "$(rbenv init -)"` to the end of `~/.zshrc`
 
 Install Ruby
 ```
-rbenv install 2.6.5
+rbenv install 2.7.3
 ```
 
 Install postgresql
@@ -144,4 +144,16 @@ Update user preferences
     },
     "terminal.integrated.fontFamily" : "Roboto Mono Light for Powerline"
 }
+```
+
+# Heroku
+
+Install Heroku CLI
+```
+brew tap heroku/brew && brew install heroku
+```
+
+Add named git remotes (example)
+```
+heroku git:remote -a [HEROKU_APP_NAME] -r [NAME_FOR_THIS_REMOTE]
 ```
