@@ -88,9 +88,9 @@ Start postgresql as a system service
 brew services start postgresql@11
 ```
 
-Build pg gem
+Build pg gem (replacing 11.10 in path with actual installed version)
 ```
-gem install pg -- --with-pg-config=/usr/local/Cellar/postgresql@11/11.8/bin/pg_config
+gem install pg -- --with-pg-config=/usr/local/Cellar/postgresql@11/11.10/bin/pg_config
 ```
 
 # VSCode 
